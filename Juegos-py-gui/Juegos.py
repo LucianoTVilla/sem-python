@@ -1,10 +1,4 @@
 import ahorcado, reverse, tateti, PySimpleGUI as sg, json, time
-# import reverse
-# import tateti
-# import PySimpleGUI as sg
-# import json
-# import time
-
 
 player_data = []
 
