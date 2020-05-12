@@ -1,4 +1,6 @@
-import ahorcado, reverse, tateti, PySimpleGUI as sg, json, time
+import ahorcado, reverse, tateti
+import PySimpleGUI as sg
+import json
 
 player_data = []
 
@@ -12,7 +14,7 @@ window = sg.Window('Juegos.py', layout)
 
 while True:
     event, values = window.read()
-    if event in (None, 'Cancel'):   # if user closes window or clicks cancel
+    if event in (None, 'Cancel'):  
         break
     if event in('Ahorcado'):
         player_data.append({'Nombre':values[0], 'Juego': 'Ahorcado'})
